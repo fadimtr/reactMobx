@@ -1,0 +1,20 @@
+{
+ "DASHBOARD":"الرئيسية",
+ "ACTIVITY":"فعالية المستخدمين",
+ "USERS":"مستخدمين",
+ "TEAMS":"المجموعات",
+ "PRODUCT_SETTINGS":"اعدادات المنتج",
+ "BOOKKEEPING":"حسابات",
+ "BILLING":"المستحقات",
+ "TICKETS":"بطاقات",
+ "CLIENTS":"الزبائن",
+ "STATISTICS":"احصائيات",
+ "TICKET_NUMBER":"رقم البطاقة",
+ "TICKET_TITLE":"عنوان البطاقة",
+ "USER_NAME":"اسم المستخدم",
+ "DATE":"التاريخ",
+ "CLIENT":"الزبون",
+ "NEW_ORDER":"طلبية جديدة",
+ "SIGN_OUT":"اخرج",
+ "HELLO":"مرحبا"
+}

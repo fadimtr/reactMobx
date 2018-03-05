@@ -1,0 +1,30 @@
+@import '../base.scss';
+
+.users-info{
+
+    .add-button{
+        background: white;
+        width: 150px;
+        height: 35px;
+        line-height: 35px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: 1px solid black;
+        border-left: 3px solid black;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .active-users-table-header{
+        display: inline-block;
+    }
+
+    .users-table-header{
+        height: 50px;
+        line-height: 50px;
+        background: lightgrey;
+        padding:0 20px;
+        font-size: 16px;
+    }
+}

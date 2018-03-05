@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style:none;
+    padding: 0;
+    margin:0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.card-header{
+    background-color: #ededed;
+    height: 70px;
+    line-height: 70px;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.card-body{
+    padding: 20px;
+    overflow: auto;
+}
+
+.right{
+    .card-header{
+        text-align: right;
+    }
+
+    .react-bs-table-container{
+        th,tr,td{
+            text-align: right !important;
+        }
+    }
+
+    .table-main-header{
+        text-align: right !important;
+    }
+}

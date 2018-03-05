@@ -1,0 +1,18 @@
+@import './base.scss';
+
+.header-component{   
+    background: white;
+    display: inline-block;
+    height: 50px;
+    width:88%;
+    border-bottom:1px solid lightgrey;
+    text-align: right;
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+.right{
+    .header-component{
+        text-align: left;
+    }
+}

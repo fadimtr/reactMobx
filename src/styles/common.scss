@@ -1,0 +1,25 @@
+@import './base.scss';
+
+
+.main-tabs{
+    margin-bottom:0px;
+    .main-tab{
+        margin:0 20px;
+        display: inline-block;
+        border-bottom:3px solid transparent;
+        cursor: pointer;
+        padding: 5px 10px;
+        text-transform: capitalize;
+        font-size: 13px;
+        font-weight: bold;
+
+        &.active{
+            border-bottom:3px solid black;
+            background: #fafafa;
+        }
+
+        &:first-of-type{
+            margin:0;
+        }
+    }
+}

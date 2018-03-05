@@ -1,0 +1,108 @@
+@import './base.scss';
+
+.sidebar-component{
+    background: #364150;
+    width: 12%;
+    height: 100%;
+    float:left;
+    padding: 30px 0;
+    cursor:default;
+    
+    a{
+        text-decoration: none;
+        color:whitesmoke;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .profile-photo-container{
+        width: 130px;
+        height: 130px;
+        background: #364150;
+        border-radius: 67px;
+        margin: auto;
+        border: 2px solid whitesmoke;
+        margin-bottom: 10px;
+
+        .profile-photo{
+            background-image: url('../assets/images/profile-picture.png');
+            background-size: contain;
+            height: 100%;
+            width:100%;
+        }
+    }
+
+    .profile-name{
+      
+        color: whitesmoke;
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 10px;
+
+        .sign-out{
+            font-size:14px;
+            text-decoration: underline;
+            color: #DDDDDD;
+            cursor:pointer;
+        }
+    }
+
+    .new-order{
+        height: 40px;
+        line-height: 40px;
+        color: black;
+        background: whitesmoke;
+        border: 2px solid gray;
+        margin: 10px 30px;
+        text-align: center;
+        border-radius: 5px;
+
+        a{
+            color: #364150;
+            font-size: 17px;
+        }
+    }
+
+    .menu-items-on-sidebar{
+        width: 100%;
+        color:white;
+        cursor: pointer;
+
+        li{
+            height: 50px;
+            line-height: 50px;
+            padding-left:30px;
+            border-bottom:1px solid #2d3744;
+
+            &:hover{
+                background-color: #56667c;
+            }
+        }
+    }
+}
+
+
+.right{
+    .sidebar-component{
+        float:right;
+        text-align:right;
+
+        .menu-items-on-sidebar{
+            li{
+                padding-left: 0;
+                padding-right:30px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .sidebar-component{
+        width:80px;
+    }
+}
+
+@media only screen  and (min-width : 1224px) {
+    /* Styles */
+}

@@ -1,0 +1,20 @@
+{
+    "DASHBOARD":"Dashboard",
+    "ACTIVITY":"Activity",
+    "USERS":"Users",
+    "TEAMS":"Teams",
+    "PRODUCT_SETTINGS":"Product settings",
+    "BOOKKEEPING":"Bookkeeping",
+    "BILLING":"Billing",
+    "TICKETS":"Tickets",
+    "CLIENTS":"Clients",
+    "STATISTICS":"Statistics",
+    "TICKET_NUMBER":"Ticket Number",
+    "TICKET_TITLE":"Ticket Title",
+    "USER_NAME":"User Name",
+    "DATE":"Date",
+    "CLIENT":"Client",
+    "NEW_ORDER":"New Order",
+    "SIGN_OUT":"Sign out",
+    "HELLO":"Hello"
+   }
